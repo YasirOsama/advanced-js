@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //if parameters numbers is not khow then we used reast parameters.
+        // ya parameters ko ak array mein jama krta hy
+        // yani jaisy parameters ki tadad increase hoti hy
+
+
+        // function sum(a, b,) {
+        //     return a + b;
+
+
+        // }
+        // let c = sum(2, 3, 7);
+        // console.log(c)
+  
+  let sum=((...reast)=>{
+         let result=0;
+         for(let i=0; i< reast.length;i++){
+            result +=reast[i];
+         }
+         console.log(result)
+        })
+        sum(2,5,3);
+       
+
+    </script>
+
+</body>
+
+</html>

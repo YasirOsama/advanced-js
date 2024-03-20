@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class employee{
+            constructor(name,age,salary){
+                this.empname=name;
+                this.empmage=age;
+                this.empsalary=salary;
+             console.log("king is back")   
+            }
+            info(){
+                console.log(`<h1>Employee classs</h1> Name : ${this.empname} age : ${this.empmage} Salary : ${this.empsalary}`)
+            }
+        }
+            class manager extends employee(){
+
+            }
+           let a=new manager("yahoo baba",25,25000);
+        a.info();
+    </script>
+    
+</body>
+</html>
